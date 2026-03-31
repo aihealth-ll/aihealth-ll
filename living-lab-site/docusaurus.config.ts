@@ -43,10 +43,10 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Living Lab',
+      title: 'AIHealth-LL',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'AIHealth-LL Logo',
+        src: 'img/aihealth-logo.png',
       },
       items: [
         {
