@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Card from '../components/Card';
@@ -83,7 +82,8 @@ export default function Governance(): JSX.Element {
                 <p>Researcher at VCU</p>
               </CardBody>
               <CardFooter
-                email='xin@vcu.edu'>
+                email='xin@vcu.edu'
+                linkedinUrl='https://www.linkedin.com/in/nan-xi-639a7030b/'>
               </CardFooter>
             </Card>
           </div>
@@ -91,7 +91,7 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/preetam_ghosh.jpg"
                 alt="Dr. Preetam Ghosh"
                 title="Dr. Preetam Ghosh"
               />
@@ -109,7 +109,7 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/bridget_mcinnes.jpg"
                 alt="Dr. Bridget McInnes"
                 title="Dr. Bridget McInnes"
               />
@@ -134,105 +134,104 @@ export default function Governance(): JSX.Element {
         <div className="row">
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/Boyan.jpg"
-                  alt="Dr. Barbara Boyan"
-                  title="Dr. Barbara Boyan"
-                />
-                <CardBody>
-                  <h3>Dr. Barbara Boyan</h3>
-                  <p>Executive director of the VCU institute for engineering and medicine</p>
-                </CardBody>
-                <CardFooter
-                    linkedinUrl='https://www.linkedin.com/in/barbara-d-boyan-91854116/'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/Boyan.jpg"
+                alt="Dr. Barbara Boyan"
+                title="Dr. Barbara Boyan"
+              />
+              <CardBody>
+                <h3>Dr. Barbara Boyan</h3>
+                <p>Executive director of the VCU institute for engineering and medicine</p>
+              </CardBody>
+              <CardFooter
+                linkedinUrl='https://www.linkedin.com/in/barbara-d-boyan-91854116/'>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/Falcao.jpg"
-                  alt="Dr. Daniel Falcao"
-                  title="Dr. Daniel Falcao"
-                />
-                <CardBody>
-                  <h3>Dr. Daniel Falcao</h3>
-                  <p>Associate professor and interim chief of the division of vascular neurology at VCU health</p>
-                </CardBody>
-                <CardFooter
-                  email='daniel.falcao@vcuhealth.org'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/Falcao.jpg"
+                alt="Dr. Daniel Falcao"
+                title="Dr. Daniel Falcao"
+              />
+              <CardBody>
+                <h3>Dr. Daniel Falcao</h3>
+                <p>Associate professor and interim chief of the division of vascular neurology at VCU health</p>
+              </CardBody>
+              <CardFooter
+                email='daniel.falcao@vcuhealth.org'>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/Campos.jpg"
-                  alt="Dr. Guilherme Campos"
-                  title="Dr. Guilherme Campos"
-                />
-                <CardBody>
-                  <h3>Dr. Guilherme Campos</h3>
-                  <p>Paul J. Nutter professor of surgery, chairman of the bariatric and 
-                  gastrointestinal surgery division at VCU</p>
-                </CardBody>
-                <CardFooter
-                    linkedinUrl='https://www.linkedin.com/in/guilherme-m-campos-md-phd-facs-fasmbs-95627a55/'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/Campos.jpg"
+                alt="Dr. Guilherme Campos"
+                title="Dr. Guilherme Campos"
+              />
+              <CardBody>
+                <h3>Dr. Guilherme Campos</h3>
+                <p>Paul J. Nutter professor of surgery, chairman of the bariatric and gastrointestinal surgery division at VCU</p>
+              </CardBody>
+              <CardFooter
+                linkedinUrl='https://www.linkedin.com/in/guilherme-m-campos-md-phd-facs-fasmbs-95627a55/'>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/Haight.jpg"
-                  alt="Dr. Taylor Haight"
-                  title="Dr. Taylor Haight"
-                />
-                <CardBody>
-                  <h3>Dr. Taylor Haight</h3>
-                  <p>Stroke neurologist at VCU health</p>
-                </CardBody>
-                <CardFooter
-                    linkedinUrl='https://www.linkedin.com/in/taylornhaight/'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/Haight.jpg"
+                alt="Dr. Taylor Haight"
+                title="Dr. Taylor Haight"
+              />
+              <CardBody>
+                <h3>Dr. Taylor Haight</h3>
+                <p>Stroke neurologist at VCU health</p>
+              </CardBody>
+              <CardFooter
+                linkedinUrl='https://www.linkedin.com/in/taylornhaight/'>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/user.jpg"
-                  alt="Dr. Joe Seacrist"
-                  title="Dr. Joe Seacrist"
-                />
-                <CardBody>
-                  <h3>Dr. Joe Seacrist</h3>
-                  <p>Medical Researcher</p>
-                </CardBody>
-                <CardFooter
-                    linkedinUrl='https://www.linkedin.com/in/joe-seacrist-23538240/'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/joe_seacrist.jpg"
+                alt="Dr. Joe Seacrist"
+                title="Dr. Joe Seacrist"
+              />
+              <CardBody>
+                <h3>Dr. Joe Seacrist</h3>
+                <p>Medical Researcher</p>
+              </CardBody>
+              <CardFooter
+                linkedinUrl='https://www.linkedin.com/in/joe-seacrist-23538240/'>
+              </CardFooter>
+            </Card>
           </div>
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
-                <CardImage
-                  cardImageUrl="/img/TeamCardImages/user.jpg"
-                  alt="Dr. Dominic Gigliotti"
-                  title="Dr. Dominic Gigliotti"
-                />
-                <CardBody>
-                  <h3>Dr. Dominic Gigliotti</h3>
-                  <p>Medical Researcher</p>
-                </CardBody>
-                <CardFooter
-                    linkedinUrl='https://www.linkedin.com/in/dominic-j-gigliotti-do-ms-a-ed-9b672b136/'>
-                </CardFooter>
-              </Card>
+              <CardImage
+                cardImageUrl="/img/TeamCardImages/dominic_gigliotti.jpg"
+                alt="Dr. Dominic Gigliotti"
+                title="Dr. Dominic Gigliotti"
+              />
+              <CardBody>
+                <h3>Dr. Dominic Gigliotti</h3>
+                <p>Medical Researcher</p>
+              </CardBody>
+              <CardFooter
+                linkedinUrl='https://www.linkedin.com/in/dominic-j-gigliotti-do-ms-a-ed-9b672b136/'>
+              </CardFooter>
+            </Card>
           </div>
         </div>
 
@@ -249,7 +248,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/David.jpg"
                 alt="David Ferrufino"
                 title="David Ferrufino"
-                />
+              />
               <CardBody>
                 <h3>David Ferrufino</h3>
                 <p>PhD grad student at VCU</p>
@@ -266,7 +265,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/Sotolani.jpg"
                 alt="Rodrigo Sotolani"
                 title="Rodrigo Sotolani"
-                />
+              />
               <CardBody>
                 <h3>Rodrigo Sotolani</h3>
                 <p>PhD grad student at VCU</p>
@@ -283,7 +282,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/Lauren.jpg"
                 alt="Lauren Viado"
                 title="Lauren Viado"
-                />
+              />
               <CardBody>
                 <h3>Lauren Viado</h3>
                 <p>Undergraduate computer science major at VCU</p>
@@ -300,7 +299,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/christiana_nardi.jpg"
                 alt="Christiana Nardi"
                 title="Christiana Nardi"
-                />
+              />
               <CardBody>
                 <h3>Christiana Nardi</h3>
                 <p>Student at VCU</p>
@@ -318,7 +317,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/trang_nguyen.jpg"
                 alt="Trang Nguyen"
                 title="Trang Nguyen"
-                />
+              />
               <CardBody>
                 <h3>Trang Nguyen</h3>
                 <p>Student at VCU</p>
@@ -336,7 +335,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/ngoc_nguyen.jpg"
                 alt="Ngoc Nguyen"
                 title="Ngoc Nguyen"
-                />
+              />
               <CardBody>
                 <h3>Ngoc Nguyen</h3>
                 <p>Student at VCU</p>
@@ -354,7 +353,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/andrew_nelson.jpg"
                 alt="Andrew Nelson"
                 title="Andrew Nelson"
-                />
+              />
               <CardBody>
                 <h3>Andrew Nelson</h3>
                 <p>Student at VCU</p>
@@ -369,10 +368,10 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/aaron_tuck.jpg"
                 alt="Aaron Tuck"
                 title="Aaron Tuck"
-                />
+              />
               <CardBody>
                 <h3>Aaron Tuck</h3>
                 <p>Student at VCU</p>
@@ -390,7 +389,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/user.jpg"
                 alt="Emily Torres"
                 title="Emily Torres"
-                />
+              />
               <CardBody>
                 <h3>Emily Torres</h3>
                 <p>Student at VCU</p>
@@ -408,7 +407,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/user.jpg"
                 alt="Tianna Carter"
                 title="Tianna Carter"
-                />
+              />
               <CardBody>
                 <h3>Tianna Carter</h3>
                 <p>Student at VCU</p>
@@ -422,10 +421,10 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/fariha_islam.jpg"
                 alt="Fariha Islam"
                 title="Fariha Islam"
-                />
+              />
               <CardBody>
                 <h3>Fariha Islam</h3>
                 <p>Student at VCU</p>
@@ -440,10 +439,10 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/sadaf_rasooli.jpg"
                 alt="Sadaf Rasooli"
                 title="Sadaf Rasooli"
-                />
+              />
               <CardBody>
                 <h3>Sadaf Rasooli</h3>
                 <p>Student at VCU</p>
@@ -458,16 +457,17 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/jack_travers.jpg"
                 alt="Jack Travers"
                 title="Jack Travers"
-                />
+              />
               <CardBody>
                 <h3>Jack Travers</h3>
                 <p>Student at VCU</p>
               </CardBody>
               <CardFooter
-                email='traversj@vcu.edu'>
+                email='traversj@vcu.edu'
+                linkedinUrl='https://www.linkedin.com/in/jack-travers-cs/'>
               </CardFooter>
             </Card>
           </div>
@@ -475,16 +475,17 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/sergio_perez.jpg"
                 alt="Sergio Perez-Ibarra"
                 title="Sergio Perez-Ibarra"
-                />
+              />
               <CardBody>
                 <h3>Sergio Perez-Ibarra</h3>
                 <p>Student at VCU</p>
               </CardBody>
               <CardFooter
-                email='perezibarrs@vcu.edu'>
+                email='perezibarrs@vcu.edu'
+                linkedinUrl='https://www.linkedin.com/in/sergio-perez-ibarra/'>
               </CardFooter>
             </Card>
           </div>
@@ -495,7 +496,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/user.jpg"
                 alt="Bibi Zahra Hakimi"
                 title="Bibi Zahra Hakimi"
-                />
+              />
               <CardBody>
                 <h3>Bibi Zahra Hakimi</h3>
                 <p>Student at VCU</p>
@@ -509,16 +510,17 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/eric_keeton.jpg"
                 alt="Eric Keeton"
                 title="Eric Keeton"
-                />
+              />
               <CardBody>
                 <h3>Eric Keeton</h3>
                 <p>Student at VCU</p>
               </CardBody>
               <CardFooter
-                email='keetonem@vcu.edu'>
+                email='keetonem@vcu.edu'
+                linkedinUrl='https://www.linkedin.com/in/eric-keeton-509a032a9/'>
               </CardFooter>
             </Card>
           </div>
@@ -529,7 +531,7 @@ export default function Governance(): JSX.Element {
                 cardImageUrl="/img/TeamCardImages/victoria_gomes.jpg"
                 alt="Victória Gomes"
                 title="Victória Gomes"
-                />
+              />
               <CardBody>
                 <h3>Victória Gomes</h3>
                 <p>Student at VCU</p>
