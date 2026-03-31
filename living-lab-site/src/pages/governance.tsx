@@ -55,23 +55,7 @@ export default function Governance(): JSX.Element {
             </Card>
           </div>
 
-          <div className="col col--3">
-            <Card className="card-demo margin-bottom--md" shadow="md">
-              <CardImage
-                cardImageUrl="/img/TeamCardImages/paula.jpg"
-                alt="Dr. Paula Ogston-Nobile"
-                title="Dr. Paula Ogston-Nobile"
-              />
-              <CardBody>
-                <h3>Dr. Paula Ogston-Nobile</h3>
-                <p>Associate Director, Institute for Collaborative Research and Evaluation</p>
-              </CardBody>
-              <CardFooter
-                linkedinUrl='https://www.linkedin.com/in/paula-ogston-nobile-phd-2b328931/'>
-              </CardFooter>
-            </Card>
-          </div>
-
+          
           <div className="col col--3">
           <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
