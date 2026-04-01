@@ -6,10 +6,10 @@ const config: Config = {
   title: 'AIHealth-LL',
   tagline: 'A Living Lab on the Development of Artificial Intelligence-enabled Systems for Health',
   favicon: 'img/favicon.ico',
-  url: 'https://gillamga.github.io',
+  url: 'https://aihealth-ll.github.io',
   baseUrl: '/',
-  organizationName: 'gillamga',
-  projectName: 'VCU-Living-Lab',
+  organizationName: 'aihealth-ll',
+  projectName: 'aihealth-ll',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
