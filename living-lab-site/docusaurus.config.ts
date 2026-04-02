@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'A Living Lab on the Development of Artificial Intelligence-enabled Systems for Health',
   favicon: 'img/favicon.ico',
   url: 'https://aihealth-ll.github.io',
-  baseUrl: '/',
+  baseUrl: '/aihealth-ll/',
   organizationName: 'aihealth-ll',
   projectName: 'aihealth-ll',
   onBrokenLinks: 'throw',
