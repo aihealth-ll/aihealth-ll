@@ -50,7 +50,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/gillamga/VCU-Living-Lab',
+          href: 'https://github.com/aihealth-ll/aihealth-ll',
           label: 'GitHub',
           position: 'right',
         },
