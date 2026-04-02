@@ -17,7 +17,7 @@ const FeatureList: FeatureItem[] = [
         engineering background in the context of AI-enabled systems.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Engineering AI Systems.webp').default,
+    image: require('@site/static/img/HomepageImages/icon1-engineering.png').default,
   },
   {
     title: 'AI Applied to Health Systems',
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
         technologies tailored to healthcare environments.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/AI Applied to Health Systems.webp').default,
+    image: require('@site/static/img/HomepageImages/icon2-aihealth.png').default,
   },
   {
     title: 'Cybersecurity Issues',
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
         strategies for safeguarding patient information against emerging threats.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Cybersecurity Issues.webp').default,
+    image: require('@site/static/img/HomepageImages/icon3-cybersecurity.png').default,
   },
   {
     title: 'Social Aspects for AI Systems',
@@ -51,7 +51,7 @@ const FeatureList: FeatureItem[] = [
         privacy, ethics, equity, diversity, inclusion (EDI).
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Social Aspects for AI Systems.webp').default,
+    image: require('@site/static/img/HomepageImages/icon4-social.png').default,
   },
   {
     title: 'Specialization Courses',
@@ -62,7 +62,7 @@ const FeatureList: FeatureItem[] = [
         participants' specialization.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Specialization Courses.webp').default,
+    image: require('@site/static/img/HomepageImages/icon5-specialization.png').default,
   },
   {
     title: 'Industrial Engagement',
@@ -72,7 +72,7 @@ const FeatureList: FeatureItem[] = [
         within our living lab and industrial partners.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Industrial Engagement.webp').default,
+    image: require('@site/static/img/HomepageImages/icon6-industrial.png').default,
   },
   {
     title: 'Leadership and Mentorship Training',
@@ -82,7 +82,7 @@ const FeatureList: FeatureItem[] = [
        evaluation of AI-enabled systems and related publications.
       </>
     ),
-    image: require('@site/static/img/HomepageImages/Leadership and Mentorship Training.webp').default,
+    image: require('@site/static/img/HomepageImages/icon7-leadership.png').default,
   },
 ];
 
