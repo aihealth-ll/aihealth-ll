@@ -73,7 +73,7 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/nan_xi.jpg"
                 alt="Dr. Nan Xi"
                 title="Dr. Nan Xi"
               />
@@ -386,7 +386,7 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/emily_torres.jpg"
                 alt="Emily Torres"
                 title="Emily Torres"
               />
@@ -404,7 +404,7 @@ export default function Governance(): JSX.Element {
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
-                cardImageUrl="/img/TeamCardImages/user.jpg"
+                cardImageUrl="/img/TeamCardImages/tianna_carter.jpg"
                 alt="Tianna Carter"
                 title="Tianna Carter"
               />
