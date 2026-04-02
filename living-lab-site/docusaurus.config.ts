@@ -70,21 +70,21 @@ const config: Config = {
               <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
                 <a href="https://www.vcuhealth.org/" style="display: inline-block;">
                   <img
-                    src="/img/VCU/vcuhealth-logo.png"
+                    src="/aihealth-ll/img/VCU/vcuhealth-logo.png"
                     alt="VCU Health Logo"
                     style="width: 150px; height: auto;"
                   />
                 </a>
                 <a href="https://www.nsf.gov/" style="display: inline-block;">
                   <img
-                    src="/img/VCU/1019px-NSF_logo.png"
+                    src="/aihealth-ll/img/VCU/1019px-NSF_logo.png"
                     alt="NSF Logo"
                     style="width: 130px; height: auto;"
                   />
                 </a>
                 <a href="https://secenter.vcu.edu/" style="display: inline-block;">
                   <img
-                    src="/img/VCU/secenter-logo.png"
+                    src="/aihealth-ll/img/VCU/secenter-logo.png"
                     alt="SE Center Logo"
                     style="width: 150px; height: auto;"
                   />
