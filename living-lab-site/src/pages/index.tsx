@@ -13,7 +13,7 @@ function HomepageHeader() {
         <img 
           src="/aihealth-ll/img/aihealth-home.png" 
           alt="AIHealth-LL" 
-          style={{ maxWidth: '500px', width: '100%', height: 'auto', borderRadius: '12px' }} 
+          style={{ maxWidth: '500px', width: '100%', height: 'auto' }} 
         />
       </div>
     </header>
