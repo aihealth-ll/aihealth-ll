@@ -19,7 +19,7 @@ const CardImage: React.FC<CardImageProps> = ({
   return (
     <img
       className={clsx('card__image', className)}
-      style={style}
+      style={{ width: '100%', height: '250px', objectFit: 'cover', ...style }}
       src={generatedCardImageUrl} alt={alt} title={title}
     />
   );
