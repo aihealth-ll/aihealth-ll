@@ -51,7 +51,7 @@ export default function Governance(): JSX.Element {
     />
     <CardBody>
       <h3>Dr. Daniel Falcao
-        <span className="badge badge--success">Clinical Program Director</span>
+        <span className="badge badge--primary">Clinical Program Director</span>
       </h3>
       <p>Associate professor and interim chief of the division of vascular neurology at VCU health</p>
     </CardBody>
