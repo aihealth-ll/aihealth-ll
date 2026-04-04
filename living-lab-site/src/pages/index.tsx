@@ -8,7 +8,7 @@ import styles from './modules/index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)} style={{ padding: '3rem 0', minHeight: 'unset', backgroundColor: '#ffffff' }}>
+    <header className={clsx('hero', styles.heroBanner)} style={{ padding: '1rem 0', minHeight: 'unset', backgroundColor: '#ffffff' }}>
       <div className={styles.container}>
         <img 
           src="/aihealth-ll/img/aihealth-home.png" 
