@@ -46,7 +46,7 @@ const config: Config = {
       title: 'AIHealth-LL',
       logo: {
         alt: 'AIHealth-LL Logo',
-        src: 'img/aihealth-logo.png',
+        src: 'img/aihealth-logo-new.png',
       },
       items: [
         {
