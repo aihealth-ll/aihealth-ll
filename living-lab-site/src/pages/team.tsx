@@ -43,6 +43,25 @@ export default function Governance(): JSX.Element {
           </div>
 
           <div className="col col--3">
+  <Card className="card-demo margin-bottom--md" shadow="md">
+    <CardImage
+      cardImageUrl="/img/TeamCardImages/Falcao.jpg"
+      alt="Dr. Daniel Falcao"
+      title="Dr. Daniel Falcao"
+    />
+    <CardBody>
+      <h3>Dr. Daniel Falcao
+        <span className="badge badge--success">Clinical Program Director</span>
+      </h3>
+      <p>Associate professor and interim chief of the division of vascular neurology at VCU health</p>
+    </CardBody>
+    <CardFooter
+      email='daniel.falcao@vcuhealth.org'>
+    </CardFooter>
+  </Card>
+</div>
+
+          <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
               <CardImage
                 cardImageUrl="/img/TeamCardImages/Damevski.jpg"
@@ -123,7 +142,23 @@ export default function Governance(): JSX.Element {
               </CardFooter>
             </Card>
           </div>
-        </div>
+
+          <div className="col col--3">
+  <Card className="card-demo margin-bottom--md" shadow="md">
+    <CardImage
+      cardImageUrl="/img/TeamCardImages/xiwei_xuan.jpg"
+      alt="Xiwei Xuan"
+      title="Xiwei Xuan"
+    />
+    <CardBody>
+      <h3>Xiwei Xuan</h3>
+      <p>Researcher at VCU</p>
+    </CardBody>
+    <CardFooter>
+    </CardFooter>
+  </Card>
+</div>
+</div>
 
         {/* Medical Researchers */}
         <div className="row margin-bottom--5px margin-top--lg">
@@ -149,22 +184,7 @@ export default function Governance(): JSX.Element {
             </Card>
           </div>
 
-          <div className="col col--3">
-            <Card className="card-demo margin-bottom--md" shadow="md">
-              <CardImage
-                cardImageUrl="/img/TeamCardImages/Falcao.jpg"
-                alt="Dr. Daniel Falcao"
-                title="Dr. Daniel Falcao"
-              />
-              <CardBody>
-                <h3>Dr. Daniel Falcao</h3>
-                <p>Associate professor and interim chief of the division of vascular neurology at VCU health</p>
-              </CardBody>
-              <CardFooter
-                email='daniel.falcao@vcuhealth.org'>
-              </CardFooter>
-            </Card>
-          </div>
+        
 
           <div className="col col--3">
             <Card className="card-demo margin-bottom--md" shadow="md">
