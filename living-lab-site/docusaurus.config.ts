@@ -42,12 +42,16 @@ const config: Config = {
   ],
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      disableSwitch: true,
+    },
     navbar: {
       title: 'AIHealth-LL',
       logo: {
         alt: 'AIHealth-LL Logo',
         src: 'img/aihealth-logo-new.png',
       },
+      hideOnScroll: false,
       items: [
         {
           href: 'https://github.com/aihealth-ll/aihealth-ll',
